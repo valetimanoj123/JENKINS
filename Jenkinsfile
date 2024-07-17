@@ -20,7 +20,7 @@ pipeline {
             }
         }
         
-        stage('Create Image'){
+        stage('Create docker image'){
             steps{
                steps {
                 	script {
